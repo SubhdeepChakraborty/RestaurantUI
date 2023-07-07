@@ -1,3 +1,3 @@
 # RestaurantUI
 
-Fully user friendly detailed ui with some smoothness.
+Detailed view of some restaurants.
