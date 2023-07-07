@@ -1,0 +1,77 @@
+.app__newsletter {
+  padding: 2rem 4rem;
+  border: 1px solid var(--color-golden);
+  background: var(--color-black);
+}
+
+.app__newsletter-heading {
+  text-align: center;
+}
+
+.app__newsletter-input {
+  flex-direction: row;
+  margin-top: 3rem;
+
+  input {
+    width: 620px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+  }
+
+  button {
+    width: max-content;
+  }
+  .custom__button {
+    background-color: var(--color-golden);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .app__newsletter-input input {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .app__newsletter-input {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .app__newsletter-input input {
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__newsletter {
+    padding: 2rem 0;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__newsletter-heading h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
